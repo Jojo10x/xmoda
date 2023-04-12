@@ -1,0 +1,190 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #ECF8F3;
+}
+* {
+    box-sizing: border-box;
+  }
+
+.main{
+    padding-top: 64px;
+    padding-left: 264px;
+    padding-bottom: 103px;
+    padding-right: 264px;
+}
+
+.header
+{ 
+    padding-bottom: 40px;
+    display: flex;
+    gap: 150px;
+    justify-content: center; 
+    align-items: center;
+    
+}
+
+#nav-bar > ul {
+    display:flex; 
+    gap: 32px;   
+    list-style: none;
+    padding-left: 0px;
+  }
+
+
+ .cropped-image {
+  width: 725px;
+ height: 579px; }
+.none-image {
+object-fit: none; }
+.position-left-top {
+ object-position: 80% 15%;
+ }
+
+/* form */
+
+.formplace{
+    position: relative;
+
+}
+form{
+position: absolute;
+bottom:  64px;
+    left:291px;
+    padding-right: 64px;
+    width: 397px;
+    height: 451px;
+    padding: 16px;
+    background-color: white;
+}
+form>h2{
+
+width: 333px;
+height: 48px;
+left: 32px;
+top: 32px;
+
+/* 20 bold */
+font-family: 'Tahoma';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+/* text */
+color: #535353;
+}
+form>p{
+
+width: 333px;
+height: 51px;
+left: 32px;
+top: 96px;
+
+/* p 14 */
+font-family: 'Tahoma';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+/* text */
+color: #535353;
+
+}
+form>label{
+
+width: 39px;
+height: 14px;
+left: 0px;
+top: 0px;
+
+/* 12 bold */
+font-family: 'Tahoma';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+
+/* text */
+color: #535353;
+
+}
+
+form> #email{
+left: 0px;
+right: 0px;
+top: 22px;
+bottom: 0px;
+height: 44px;
+
+/* white */
+background: #FFFFFF;
+/* mid gr */
+border: 1px solid #D2D2D2;
+
+}
+form>#reason{
+left: 0px;
+right: 0px;
+top: 22px;
+bottom: 0px;
+height: 72px;
+
+/* white */
+background: #FFFFFF;
+/* mid gr */
+border: 1px solid #D2D2D2;
+
+}
+
+#menu{
+color: #535353;
+
+}
+ 
+  input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background:white;
+    border:solid 1px black ;
+  }
+  
+
+  /* Set a style for the submit button */
+  .btn {
+    background-color: #176C48;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+
+
+
+/* footer */
+.words{
+width: 752px;
+height: 38px;
+left: 264px;
+top: 759px;
+margin-bottom: 103px;
+
+/* p */
+font-family: 'Tahoma';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+/* Gray 3 */
+color: #828282;
+
+
+}
