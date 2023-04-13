@@ -17,8 +17,7 @@ body {
 { 
     padding-bottom: 40px;
     display: flex;
-    gap: 150px;
-    justify-content: center; 
+    justify-content: space-between; 
     align-items: center;
     
 }
@@ -45,7 +44,7 @@ body {
 }
   
 .mainItems{
-    width: 364px;
+    max-width: 364px;
     height: 175px;
     background-color:  #ECF8F3;
     ;
