@@ -19,7 +19,7 @@
     width: 100%;
   }
   
-  .image {
+  .image  {
     position: absolute;
     top: 148px;
     left: 50%;
@@ -59,16 +59,17 @@
   
   .logo {
     position: absolute;
-    width: 170px;
-    height: 44px;
-    
-    top: 64px;
    
-    left: 14.5%;
-    transform: translateX(-14.5%);
+    top: 68px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 579px;
+    width: 752px;
     z-index: 2;
    
-  }@media screen and (min-width: 1440px) {
+  }
+  
+  /* @media screen and (min-width: 1440px) {
     .logo {
       position: absolute;
       
@@ -99,7 +100,7 @@
         left: -191.5%;
         
     }
-  }
+  } */
   
   .contact-list {
     display: flex;
@@ -111,7 +112,7 @@
     position: absolute;
 
     
-   
+    top: 72px;
    
     right: -1.5%;
     transform: translateX(-3.5%);
@@ -126,10 +127,11 @@
     padding: 0px;
     gap: 32px;
     position: absolute;
-    width: 327px;
-    height: 35px;
-    right: 264px;
-    top: 69px;
+  
+    left: 50%;
+    transform: translateX(-50%);
+    height: 579px;
+    width: 752px;
     justify-content: space-between;
     
   }
@@ -287,7 +289,8 @@ form> #email{
 
   .caption {
     position: absolute;
-    
+    height: 579px;
+    width: 752px;
     left: 50%;
     transform: translateX(-50%);
     color:red;
